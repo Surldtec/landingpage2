@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(243, 237, 229);
+}
+.Profile{
+    border: 2px solid white;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    box-shadow: 4px 4px 6px 6px;
+    border-radius: 40px;
+}
+.photo{
+    width: 190px;
+    height: 180px;
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+.photo>img{
+    position: relative;
+    left: 45px;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+}
+h2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    position: relative;
+    top: -20px;
+    left: 35px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: grey
+}
+.about{
+    position: relative;
+    top: 40px;
+    height: 75px;
+}
+.about>h2{
+    font-size: 15px;
+    position: relative;
+    top: -9px;
+    left: 2px;
+}
+.about>p{
+    position: relative;
+    left: 2px;
+    top: -19px;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 52px;
+    height: 60px;
+}
+.outside{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    border-radius: 10px;
+    background-color:rgb(240, 203, 156);
+    cursor: pointer;
+}
+.outside:hover{
+    background-color: orangered;
+}
+.outside>i{
+    position: relative;
+    top: 6px;
+    left: 7px;
+}
+.Chatbox{
+    border: 2px solid brown;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 700px;
+    top: -350px;
+    box-shadow: 4px 4px 6px 6px;
+    border-radius: 40px;
+}
+.header{
+    position: relative;
+    top: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 4px 4px;
+    border-radius: 40px;
+    padding: 10px;
+    
+}
+.header>img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    cursor: pointer;
+}
+.header>i{
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+    color: orangered;;
+   
+}

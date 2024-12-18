@@ -1,0 +1,292 @@
+body{
+   background-color: rgb(243, 237, 229);
+}
+
+
+.Navabar{
+    width: 1330px;
+    margin-top: 40px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Navabar1{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+}
+.Navabar1>img{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: -59px;
+}
+.Navabar2{
+    width: 500px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Navabar2>p{
+    position: relative;
+    font-weight: 600;
+    top: -1px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: rgb(161, 158, 156);
+    cursor: pointer;
+}
+.Navabar3{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    display: flex;
+}
+.Navabar3>p{
+    font-weight: 600;
+    position: relative;
+    top: -1px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: rgb(161, 158, 156);
+    cursor: pointer;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(23, 100, 31);
+    color: white;
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Section{
+    width: 1120px;
+    height: 400px;
+    position: relative;
+    top: -20px;
+    margin-top: 130px;
+    margin-left: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.Section1{
+    width: 700px;
+    height: 245px;
+    position: relative;
+    top: 95px;
+
+}
+.Section2{
+    width: 290px;
+    height: 370px;
+}
+.Section2>img{
+    width: 290px;
+    height: 370px;
+}
+.Section1>h1{
+    font-family: "Inter", sans-serif;
+    margin-top: -10px;
+    font-size: 50px;
+
+}
+.orange{
+    color: rgb(247, 181, 10);
+    position: relative;
+    top: -30px;
+}
+h4{
+    position: relative;
+    top: -60px;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(161, 158, 156);
+    font-family: "Inter", sans-serif;
+}
+.button2{
+    width: 120px;
+    height: 45px;
+    background-color: rgb(23, 100, 31);
+    color: white;
+    position: relative;
+    left: 0px;
+    top: -63px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+}
+.downside{
+    width: 450px;
+    height: 20px;
+    position: relative;
+    top: -39px;
+    display: flex
+}
+.downsidetext{
+    width: 250px;
+    height: 20px;
+
+}
+.downsideimg{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+h6{
+    position: relative;
+    top: -30px;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(161, 158, 156);
+    font-family: "Inter", sans-serif;
+}
+#imggo{
+    position: relative;
+    left: -20px;
+    width: 20px;
+    height: 20px;
+}
+#imggo2{
+    position: relative;
+    left: -40px;
+    width: 20px;
+    height: 20px;
+    
+}
+.Footer{
+    height: 300px;
+    width: 1330px;
+}
+.Footer1{
+    height: 50px;
+    width: 310px;
+    position: relative;
+    top: 70px;
+    left: 550px;
+    
+}
+h5{
+    position: relative;
+    text-align: center;
+    top: 8px;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(161, 158, 156);
+    font-family: "Inter", sans-serif;
+}
+.Footer2{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    width: 940px;
+    height: 100px;
+}
+.Footer2>img{
+    position: relative;
+    top: 25px;
+    left: 15px;
+    padding: 19px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.goal{
+    color: rgb(161, 158, 156);
+    text-decoration: none;
+}
+.goal:hover{
+    color: rgb(247, 181, 10);
+}
+.Navabar2 p:hover{
+    color: rgb(247, 181, 10);
+}
+.dropdown{
+    border-radius: 40px;
+    background-color: white;
+    width: 350px;
+    position: absolute;
+    height: 180px;
+    left: 450px;
+    z-index: 1;
+
+}
+.option1{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+.option1>img{
+    position: relative;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+}
+.option1>h3{
+    position: relative;
+    left: 35px;
+    top: -13px;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    color:  rgb(159, 199, 235);
+    cursor: pointer;
+}
+.option1>p{
+    position: relative;
+    left: -20px;
+    top: 11px;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    color:  rgb(159, 199, 235);
+}
+.option2{
+    
+    width: 400px;
+    height: 70px;
+    display: flex;
+    position: relative;
+    top: 20px;
+
+}
+.option2>img{
+    position: relative;
+    left: 30px;
+    width: 25px;
+    height: 25px;
+}
+.option2>h3{
+    position: relative;
+    left: 35px;
+    top: -13px;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    color: rgb(159, 199, 235);
+    cursor: pointer;
+}
+.option2>p{
+    position: relative;
+    left: -65px;
+    top: 11px;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    color:  rgb(159, 199, 235);
+}
+.option2>h3:hover{
+    color: rgb(247, 181, 10);
+
+}
+.option1>h3:hover       {
+    color: rgb(247, 181, 10);
+
+}
+
+

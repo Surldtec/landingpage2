@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: rgb(243, 237, 229);
+}
+.Bigdiv{
+    width: 350px;
+    height: 400px;
+    padding: 2px 1px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+h1{
+    font-size: 2rem;
+    color: black;
+    margin-top: 10px;
+
+}
+form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background: #e4e4e4;
+
+}
+button{
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 10px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(23, 100, 31);
+}
+button:hover{
+    background-color: blueviolet;
+}
+input:focus{
+    border: 1px solid rgb(192, 192, 192);
+}
+.terms{
+    font-size: 20px;
+    margin-top: 0.2rem;
+}
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.7em;
+}
+.terms a{
+    
+    text-decoration: none;
+}
+.terms a:hover{
+    color: red;
+}
+.member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: gray;
+}
+.member a{
+    color: cadetblue;
+    text-decoration: none;
+}
+.recover{
+    text-align: right;
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+.recover a{
+    text-decoration: none;
+    color: #464646;
+}
+.text{
+    font-size: 15px;
+    position: relative;
+    top: 13px;
+}
